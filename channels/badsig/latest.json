@@ -1,0 +1,15 @@
+{
+  "version": "0.10.99",
+  "notes": "NEGATIVE TEST: signature belongs to another file, must be refused.",
+  "pub_date": "2026-11-18T22:31:15Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc2ZGNHV5VEZrYktxeHJPYklQaERZZlhTQzJQOXVUZ2lXRDhBY1JadlI3SkJrWmdaTXY4WUxRK3ZPZm8rT2pqczlBOUEzeGJ1Qmk3bGhxT0txWmh3U3FGNnNQRkpLNndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM5MzExCWZpbGU6Rml4TGFnc18wLjEwLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMTAuMApIcEgxTUQ3aE0raDEvYmRzbnRvQWdTQy9JVGsyQ2g1L1pOOGhwUkJMR2llQ3B5UTlibXlHOXZVRklqQVcwQ1U3YnhLemYzT0V3OGpCK1hvNjBIZTBEQT09Cg==",
+      "url": "https://github.com/vintix/fixlags-releases/releases/download/test-v0.10.1/FixLags_0.10.1_x64-setup.exe"
+    }
+  },
+  "fixlags": {
+    "channel": "negative-test",
+    "critical": false
+  }
+}
