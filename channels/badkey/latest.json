@@ -1,0 +1,15 @@
+{
+  "version": "0.10.99",
+  "notes": "NEGATIVE TEST: signed with a key that is not the FixLags key, must be refused.",
+  "pub_date": "2026-11-18T22:31:15Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSU09TTkdTZGdtc0RnblFQaEYrUHJVZE02eXhrWGVNdnRIRU5DS21lTXNqbVJvU3NPSUFwdXhwNnB1VGtINmpXZzNsU29QSzF2Y1BGbG0walRJRXp0OWtrdVpRZXNhOWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQxMTU4CWZpbGU6Qi5leGUKZEJTOGhLK0MybmlpUDVJdkhzTzhUS2lvOWRsUFlITUQyc2d0VWl6clJjUUMzRmU4cDQ5YlFFZElUVmdCMDNnU21QcTB6dXZLQ2dHSk95R0hodlp4RFE9PQo=",
+      "url": "https://github.com/vintix/fixlags-releases/releases/download/test-v0.10.1/FixLags_0.10.1_x64-setup.exe"
+    }
+  },
+  "fixlags": {
+    "channel": "negative-test",
+    "critical": false
+  }
+}
