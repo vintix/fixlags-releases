@@ -1,0 +1,15 @@
+{
+  "version": "0.9.0",
+  "notes": "NEGATIVE TEST: older version, must be ignored.",
+  "pub_date": "2026-11-18T22:31:15Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc2ZGNHV5VEZrYkN4bHJtMSt3REFHU1ZYMjhOYVdreW1vNXFNbmhxYjNWRnpXNnJIdE5hbnpVelJpekNMNStwdURqcXA5UTB6RldGekNtcXptMmFUUDN0emhCeVI2cGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQxMDcyCWZpbGU6Rml4TGFnc18wLjEwLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMTAuMQpleEJzQlJuNFNiK0Zla1VXRHBPOWVmWE42YkNwa0x4YWpUS3RRV1F4MTZRTnNxbmhVeTl0Vmdwd0dzKzgxTmhucld5eFV3TEFaeDJhbjcxcHBGTGdCUT09Cg==",
+      "url": "https://github.com/vintix/fixlags-releases/releases/download/test-v0.10.1/FixLags_0.10.1_x64-setup.exe"
+    }
+  },
+  "fixlags": {
+    "channel": "negative-test",
+    "critical": false
+  }
+}
