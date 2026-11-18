@@ -1,0 +1,19 @@
+{
+  "version": "0.10.1",
+  "notes": "First public release of FixLags for Windows (paid beta).\r\n\r\n- Free to download and use: account, game selection, direct network measurements, diagnostics and network recovery.\r\n- Relay routing (Smart and manual Relay modes through the FixLags relay in Germany) needs an active subscription; your PC is set up automatically after sign-in, with its own WireGuard key.\r\n- Automatic, signed updates: FixLags checks for a new version shortly after start and every 6 hours and shows \"FixLags vX.Y.Z is available\". Nothing installs without your click; the relay is disconnected and your routes are restored first.\r\n- Settings → Updates: installed version, \"Check for updates\", download progress and these notes.\r\n\r\nKnown limitations: one relay location; IPv4 only; the installer is not Authenticode-signed yet (Windows SmartScreen warns); administrator rights are needed at install and at every start; FixLags cannot guarantee a lower ping and shows measured results only.",
+  "pub_date": "2026-11-18T22:31:15Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc2ZGNHV5VEZrYkN4bHJtMSt3REFHU1ZYMjhOYVdreW1vNXFNbmhxYjNWRnpXNnJIdE5hbnpVelJpekNMNStwdURqcXA5UTB6RldGekNtcXptMmFUUDN0emhCeVI2cGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQxMDcyCWZpbGU6Rml4TGFnc18wLjEwLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMTAuMQpleEJzQlJuNFNiK0Zla1VXRHBPOWVmWE42YkNwa0x4YWpUS3RRV1F4MTZRTnNxbmhVeTl0Vmdwd0dzKzgxTmhucld5eFV3TEFaeDJhbjcxcHBGTGdCUT09Cg==",
+      "url": "https://github.com/vintix/fixlags-releases/releases/download/test-v0.10.1/FixLags_0.10.1_x64-setup.exe"
+    }
+  },
+  "fixlags": {
+    "channel": "test",
+    "tag": "test-v0.10.1",
+    "critical": false,
+    "sha256": "54d1ea982365380ef0c7beea4158f7371f7c137370edb6e7f28cc4e0717f0485",
+    "size": 5644219,
+    "authenticode": false
+  }
+}
