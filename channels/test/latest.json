@@ -1,19 +1,19 @@
 {
-  "version": "0.10.3",
-  "notes": "First public release of FixLags for Windows (beta).\r\n\r\n- Free to download and use: account, game selection, direct network measurements, diagnostics and network recovery.\r\n- Relay routing (Smart and manual Relay modes through the FixLags relay in Frankfurt) needs an active subscription; your PC is set up automatically after sign-in, with its own WireGuard key. No manual WireGuard setup.\r\n- Automatic, signed updates: FixLags checks for a new version shortly after start and every 6 hours and shows \"FixLags vX.Y.Z is available\". Nothing installs without your click; the relay is disconnected and your routes are restored first.\r\n- Settings → Updates: installed version, Check for updates, download progress and these notes.\r\n\r\nEarlier testers: FixLags accounts moved to a new account service in this version. Accounts created before 0.10.3 no longer exist; create your account again at fixlags.com and sign in to the app once more. Relay access granted before 0.10.3 has to be granted again.\r\n\r\nKnown limitations: one relay location; IPv4 only; the installer is not Authenticode-signed yet (Windows SmartScreen warns); administrator rights are needed at install and at every start; FixLags cannot guarantee a lower ping and shows measured results only.",
-  "pub_date": "2026-11-21T02:35:39Z",
+  "version": "0.11.0",
+  "notes": "FixLags for Windows 0.11.0 (beta): ready for several relay locations.\r\n\r\n- Servers → FixLags relay: FixLags measures the ping from your PC to every FixLags relay and uses the one with the lowest ping (\"Automatic\", the default). You can also pick a relay yourself.\r\n- Automatic keeps your current relay unless another one is clearly faster (at least 10 ms and 15 %), so it does not jump between similar relays.\r\n- A relay is never changed during a connection: FixLags sets up access on the new relay in the background and switches when you are disconnected and the new relay is ready.\r\n- Relays are measured at start, every 10 minutes and with \"Measure again\", never while connected.\r\n\r\nRight now there is one relay (Frankfurt); new locations show up in the app by themselves when they open.\r\n\r\nKnown limitations: IPv4 only; the installer is not Authenticode-signed yet (Windows SmartScreen warns); administrator rights are needed at install and at every start; FixLags cannot guarantee a lower ping and shows measured results only.",
+  "pub_date": "2026-11-21T14:39:07Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc2ZGNHV5VEZrYkYyUHh3TXJxQ0FPMzhJTkFkc2lXV01rdGtsTG5tS0FnbFlQWXJETnRQUnNEaXQrOHE5M3FId0VHOGhJRUY5ZXJWS09DMm0wVTZKTzR4SmFrQkJud0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjI4NTM2CWZpbGU6Rml4TGFnc18wLjEwLjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMTAuMwp4V2RwY2JwOCtJVUFKUVNrSTFnczBZUjNVdFdWTFZGdHNKamZOODAzeXAyTk5rcEpLWjlhdFV6Ylo0alBkTjJ1c3kva0hnNUt3OGdlQ0NvUDgvSkpBdz09Cg==",
-      "url": "https://github.com/vintix/fixlags-releases/releases/download/test-v0.10.3/FixLags_0.10.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRc2ZGNHV5VEZrYkQ2YjRCT1I1V2xGb1dsc24xR0p0S21VdnFERy94NHVra1pMOHRXUFZHV0tZTjhTbGovRE1tZXlKZU0xV3FEWnpPdzdvL1hZSGxkQUlXZ1RuR3BUOHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjcxOTQ0CWZpbGU6Rml4TGFnc18wLjExLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMTEuMAoyNiswZUR4ZUp1cHQ3aGk4bWtoWUd2bGxpa2NZeTJ0d3lMTlVHYjlCSnRGZE50aDFEelRac1ZOTGQzMG5IdnppZjVzRlRDaE80SWIyQXdLVzM0MG5Ddz09Cg==",
+      "url": "https://github.com/vintix/fixlags-releases/releases/download/test-v0.11.0/FixLags_0.11.0_x64-setup.exe"
     }
   },
   "fixlags": {
     "channel": "test",
-    "tag": "test-v0.10.3",
+    "tag": "test-v0.11.0",
     "critical": false,
-    "sha256": "ad8c122400d7cd62c7263544a566f4bb44541ebbcd367cefbcfc2e9ff7ded2d2",
-    "size": 5618759,
+    "sha256": "19d1324b33dc5cce1d7ed589aea5539531aa000c15e7db3cf940e1187f3445cd",
+    "size": 5652155,
     "authenticode": false
   }
 }
